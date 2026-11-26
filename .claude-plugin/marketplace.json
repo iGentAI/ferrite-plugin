@@ -1,0 +1,15 @@
+{
+  "name": "ferrite",
+  "owner": {
+    "name": "iGent AI",
+    "url": "https://ferrite.cloud/"
+  },
+  "description": "Build, deploy and run full-stack web apps from the conversation.",
+  "plugins": [
+    {
+      "name": "ferrite",
+      "source": "./",
+      "description": "Production hosting built for coding agents. Your agent builds, tests, and deploys full-stack Ferrite applications that run inside declared capability boundaries, serve people and AI assistants from one handler, and stay within a prepaid balance quoted upfront."
+    }
+  ]
+}

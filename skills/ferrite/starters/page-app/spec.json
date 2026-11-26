@@ -1,0 +1,18 @@
+{ "services": [
+    { "name": "requests", "primitive": "queue",
+      "workload": { "read_qps": 50, "write_qps": 50, "record_size_kb": 1, "keying": "PerKey", "hot_set_gib": 1 } },
+    { "name": "data", "primitive": "store",
+      "workload": { "read_qps": 50, "write_qps": 20, "record_size_kb": 1, "keying": "PerKey", "hot_set_gib": 0 } }
+  ],
+  "applications": [{
+    "name": "page-app",
+    "artifact_key": "apps/page-app@v1",
+    "artifact_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "bindings": [
+      { "handle": "requests", "kind": "queue", "service": "requests" },
+      { "handle": "data", "kind": "store", "service": "data" }
+    ],
+    "routes": [ { "prefix": "/", "binding": "requests", "kind": "api" } ],
+    "compute": { "memory_mb": 256, "cpu_percent": 50 }
+  }]
+}

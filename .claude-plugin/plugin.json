@@ -1,0 +1,27 @@
+{
+  "name": "ferrite",
+  "version": "0.1.42",
+  "description": "Production hosting built for coding agents. Your agent builds, tests, and deploys full-stack Ferrite applications that run inside declared capability boundaries, serve people and AI assistants from one handler, and stay within a prepaid balance quoted upfront.",
+  "author": {
+    "name": "iGent AI",
+    "url": "https://ferrite.cloud/"
+  },
+  "homepage": "https://docs.ferrite.cloud/developers/plugin/",
+  "license": "MIT",
+  "keywords": [
+    "ferrite",
+    "hosting",
+    "backend",
+    "deployment",
+    "developer-tools",
+    "mcp",
+    "agent-skill",
+    "rust"
+  ],
+  "repository": "https://github.com/iGentAI/ferrite-plugin",
+  "icon": "./assets/icon-1024.png",
+  "documentationUrl": "https://docs.ferrite.cloud/",
+  "supportUrl": "https://ferrite.cloud/support",
+  "privacyPolicyUrl": "https://ferrite.cloud/privacy",
+  "termsOfServiceUrl": "https://ferrite.cloud/terms"
+}

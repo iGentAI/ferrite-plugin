@@ -1,0 +1,20 @@
+{
+  "name": "ferrite",
+  "interface": {
+    "displayName": "Ferrite"
+  },
+  "plugins": [
+    {
+      "name": "ferrite",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

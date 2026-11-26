@@ -1,0 +1,30 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "ferrite",
+  "displayName": "Ferrite",
+  "version": "0.1.42",
+  "description": "Production hosting built for coding agents. Your agent builds, tests, and deploys full-stack Ferrite applications that run inside declared capability boundaries, serve people and AI assistants from one handler, and stay within a prepaid balance quoted upfront.",
+  "logo": "assets/icon-512.png",
+  "suggestedPrompts": [
+    "Build me an RSVP page for Saturday and put it online",
+    "Make a poll for our team offsite and give me the link",
+    "Show me the logs for my sign-up app and fix what is failing"
+  ],
+  "author": {
+    "name": "iGent AI",
+    "url": "https://ferrite.cloud/"
+  },
+  "homepage": "https://docs.ferrite.cloud/developers/plugin/",
+  "repository": "https://github.com/iGentAI/ferrite-plugin",
+  "license": "MIT",
+  "keywords": [
+    "ferrite",
+    "hosting",
+    "backend",
+    "deployment",
+    "developer-tools",
+    "mcp",
+    "agent-skill",
+    "rust"
+  ]
+}

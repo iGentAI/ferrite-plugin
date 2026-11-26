@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- The directory listing icon: the Ferrite blades (websites/documentation/public/ferrite-mark.svg)
+       with each shade clipped to its blade, centred on the site's paper colour. Rendered to icon.png at 1024 px by rsvg-convert. -->
+  <defs>
+    <clipPath id="b0"><path d="M 9,2.5 L 9,17.5 A 6 6 0 0 1 3,11.5 L 3,8.5 A 6 6 0 0 1 9,2.5 Z"/></clipPath>
+    <clipPath id="b1"><path d="M 17,1 L 17,19 A 6 6 0 0 1 11,13 L 11,7 A 6 6 0 0 1 17,1 Z"/></clipPath>
+    <clipPath id="b2"><path d="M 25,3 L 25,17 A 6 6 0 0 1 19,11 L 19,9 A 6 6 0 0 1 25,3 Z"/></clipPath>
+  </defs>
+  <rect width="32" height="32" fill="#fdfdf9"/>
+  <g transform="translate(4.8 6.4) scale(0.8)">
+    <g transform="rotate(12 14 12)" fill="#d43d1a">
+      <g>
+        <path d="M 9,2.5 L 9,17.5 A 6 6 0 0 1 3,11.5 L 3,8.5 A 6 6 0 0 1 9,2.5 Z"/>
+        <rect x="7" y="2.5" width="2" height="15" fill="#47120a" fill-opacity="0.24" clip-path="url(#b0)"/>
+      </g>
+      <g opacity="0.82">
+        <path d="M 17,1 L 17,19 A 6 6 0 0 1 11,13 L 11,7 A 6 6 0 0 1 17,1 Z"/>
+        <rect x="15" y="1" width="2" height="18" fill="#47120a" fill-opacity="0.24" clip-path="url(#b1)"/>
+      </g>
+      <g opacity="0.62">
+        <path d="M 25,3 L 25,17 A 6 6 0 0 1 19,11 L 19,9 A 6 6 0 0 1 25,3 Z"/>
+        <rect x="23" y="3" width="2" height="14" fill="#47120a" fill-opacity="0.24" clip-path="url(#b2)"/>
+      </g>
+    </g>
+  </g>
+</svg>

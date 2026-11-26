@@ -1,0 +1,56 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ferrite",
+  "version": "0.1.42",
+  "description": "Production hosting built for coding agents. Your agent builds, tests, and deploys full-stack Ferrite applications that run inside declared capability boundaries, serve people and AI assistants from one handler, and stay within a prepaid balance quoted upfront.",
+  "author": {
+    "name": "iGent AI",
+    "url": "https://ferrite.cloud/"
+  },
+  "homepage": "https://docs.ferrite.cloud/developers/plugin/",
+  "license": "MIT",
+  "keywords": [
+    "ferrite",
+    "hosting",
+    "backend",
+    "deployment",
+    "developer-tools",
+    "mcp",
+    "agent-skill",
+    "rust"
+  ],
+  "repository": "https://github.com/iGentAI/ferrite-plugin",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Ferrite",
+        "shortDescription": "Build and host web apps",
+        "longDescription": "Ferrite builds and hosts web applications from the conversation. Ask for an RSVP page, a poll, a sign-up sheet, a booking page or a small API, and ChatGPT writes the application, checks it against Ferrite's admission rules, deploys it and gives you its live HTTPS address, usually within minutes. Every application keeps its own stored data, so votes, sign-ups and form entries are there the next time you ask.\n\nOnce an application is live, ChatGPT can show its logs and usage, explain a failed deploy, change it and redeploy, copy it together with its data, roll it back to an earlier version, or take it offline. Ferrite quotes what each application costs before it deploys.\n\nFerrite is for founders, makers and teams who want working software without running servers. Applications are written in Rust against Ferrite's SDK, which ChatGPT handles for you, and each one reaches only the storage, routes and outside services its specification declares.\n\nConnecting opens Ferrite's sign-in page: sign in to your Ferrite account with Google or GitHub, or start a new account without signing in. Billing, team members and API tokens are managed in the Ferrite dashboard.",
+        "developerName": "iGent AI",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Write, check and deploy a full-stack web app to a live HTTPS address",
+          "Keep form entries, votes and records in the app's own storage",
+          "Read an app's logs, usage and deploy status",
+          "Change and redeploy a running app, or roll it back",
+          "Copy an app together with its data",
+          "Quote what an app costs before it deploys",
+          "Search Ferrite's documentation"
+        ],
+        "websiteURL": "https://ferrite.cloud/",
+        "supportURL": "https://ferrite.cloud/support",
+        "privacyPolicyURL": "https://ferrite.cloud/privacy",
+        "termsOfServiceURL": "https://ferrite.cloud/terms",
+        "defaultPrompt": [
+          "Build me an RSVP page for Saturday's dinner and put it online.",
+          "Make a poll for our team offsite location and give me the link.",
+          "Show me the logs for my sign-up app and tell me what is failing."
+        ],
+        "brandColor": "#d43d1a",
+        "brandColorDark": "#e8664a",
+        "composerIcon": "./assets/icon-256.png",
+        "logo": "./assets/icon-1024.png"
+      }
+    }
+  }
+}

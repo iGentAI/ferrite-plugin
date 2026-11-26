@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ferrite": {
+      "type": "http",
+      "url": "https://mcp.ferrite.cloud/mcp"
+    }
+  }
+}
