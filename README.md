@@ -31,7 +31,8 @@ codex plugin add ferrite@ferrite
 ### GitHub Copilot CLI and VS Code
 
 ```sh
-copilot plugin install iGentAI/ferrite-plugin
+copilot plugin marketplace add iGentAI/ferrite-plugin
+copilot plugin install ferrite@ferrite
 ```
 
 In VS Code, run **Chat: Install Plugin from Source** from the Command Palette and enter `https://github.com/iGentAI/ferrite-plugin`, or open this link:
