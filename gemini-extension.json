@@ -1,6 +1,6 @@
 {
   "name": "ferrite",
-  "version": "0.1.42",
+  "version": "0.1.45",
   "description": "Production hosting built for coding agents. Your agent builds, tests, and deploys full-stack Ferrite applications that run inside declared capability boundaries, serve people and AI assistants from one handler, and stay within a prepaid balance quoted upfront.",
   "contextFileName": "rules/ferrite.md",
   "mcpServers": {

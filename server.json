@@ -3,7 +3,7 @@
   "name": "cloud.ferrite/ferrite",
   "title": "Ferrite",
   "description": "Build, deploy and run full-stack web apps from the conversation.",
-  "version": "0.1.42",
+  "version": "0.1.45",
   "websiteUrl": "https://ferrite.cloud/",
   "repository": {
     "url": "https://github.com/iGentAI/ferrite-plugin",
